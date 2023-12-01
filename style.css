@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.background-container {
+  background-color: #ededed;
+  padding: 0 2rem;
+}
+
+.container {
+  background-color: #fff;
+  padding: 1rem 2rem;
+}
+
+.primary-heading {
+  font-size: 1.5rem;
+}
+
+.post {
+  border: 1px solid #3e1f1f;
+  padding: 0.5rem 1rem;
+}
+
+.post-heading {
+  font-size: 1.2rem;
+}
