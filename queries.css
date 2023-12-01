@@ -1,0 +1,86 @@
+@media (min-width: 52em) {
+  .background-container {
+    padding: 1.5rem 5rem;
+  }
+
+  .container {
+    padding: 3rem 4rem;
+  }
+
+  .primary-heading {
+    margin-bottom: 3rem;
+  }
+
+  .posts {
+    gap: 3rem;
+  }
+
+  .like-save-comment {
+    gap: 2.4rem;
+  }
+
+  .following-header {
+    margin-bottom: 3rem;
+  }
+
+  /* ME SECTION */
+
+  .profile-container {
+    padding: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .profile {
+    gap: 3rem;
+  }
+
+  .profile-info {
+    gap: 1rem;
+  }
+
+  .profile-img {
+    width: 6rem;
+  }
+
+  .profile-name {
+    font-size: 1.6rem;
+  }
+
+  .following-followers {
+    flex-direction: row;
+    gap: 1.8rem;
+  }
+
+  .following,
+  .followers {
+    gap: 0.8rem;
+  }
+
+  .number {
+    font-size: 1rem;
+  }
+
+  .following-text,
+  .follower-text {
+    font-size: 1rem;
+  }
+
+  .following-container,
+  .favorites-container,
+  .notifications-container {
+    padding: 1rem 2rem;
+  }
+
+  .me-heading {
+    font-size: 1.1rem;
+  }
+
+  .me-text {
+    font-size: 1rem;
+  }
+
+  .me-button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}

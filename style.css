@@ -9,6 +9,10 @@ html {
   font-family: "Rubik", sans-serif;
 }
 
+/**************************/
+/* CONTAINER */
+/**************************/
+
 .background-container {
   background-color: #ededed;
   padding: 1rem 1.5rem;
@@ -17,22 +21,214 @@ html {
 .container {
   background-color: #fff;
   padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
 }
 
 .primary-heading {
   font-size: 1.5rem;
   font-family: "Fira Sans", sans-serif;
+  margin-bottom: 1.5rem;
+  color: #3e1f1f;
+}
+
+/**************************/
+/* POSTS SECTION*/
+/**************************/
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .post {
   border: 1px solid #3e1f1f;
   padding: 0.5rem 1rem;
+  border-radius: 6px;
 }
 
 .post-heading {
   font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.poster {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.poster-img {
+  width: 2.4rem;
+  border-radius: 50%;
+}
+
+.comment-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.like-save-comment {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.comment-area-button {
+  background-color: #fff;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+
+  display: flex;
+  align-items: center;
+}
+
+/**************************/
+/* FOLLOWING SECTION*/
+/**************************/
+
+.following-header {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.following {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.following-img {
+  border-radius: 50%;
+  width: 4rem;
+}
+
+/**************************/
+/* ME SECTION*/
+/**************************/
+
+/* Profile */
+
+.profile-container {
+  padding: 0.8rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.profile-img {
+  width: 5rem;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 1.3rem;
 }
 
 .following-followers {
   display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+.following,
+.followers {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.number {
+  font-size: 0.6rem;
+  color: #000;
+}
+
+.following-text,
+.follower-text {
+  font-size: 0.8rem;
+  color: #495057;
+}
+
+/* Buttons */
+
+.me-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.me-button {
+  border: none;
+  border-radius: 5px;
+  align-self: center;
+  padding: 0.4rem 0.8rem;
+
+  background-color: #f8d29a;
+  color: #3b2213;
+  font-size: 0.8rem;
+}
+
+.me-button:hover {
+  background-color: #3b2213;
+  color: #f8d29a;
+}
+
+/* Small Containers */
+
+.me-containers {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.following-container,
+.favorites-container,
+.notifications-container {
+  background-color: #f8f9fa;
+  height: 4rem;
+  border-radius: 6px;
+  padding: 1rem;
+
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.me-heading {
+  font-size: 1rem;
+  color: #495057;
+}
+
+.me-text {
+  font-size: 0.9rem;
+  color: #000;
+}
+
+.me-following-img {
+  border-radius: 50%;
+  width: 3rem;
 }
