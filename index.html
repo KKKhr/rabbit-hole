@@ -17,7 +17,35 @@
     <title>Rabbit Hole</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <div class="logo">Rabbit Hole</div>
+      <nav>
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="following.html"> Following </a></li>
+        </ul>
+      </nav>
+
+      <div class="search-bar">
+        <form action="/search" method="get">
+          <input type="text" name="q" placeholder="Search">
+          <button type="submit"><img src="imgs/icons8-search-48.png" alt="Search Button"></button>
+        </form>
+      </div>
+
+      <form action="post.html" method="get">
+        <button type="submit" class="post-button">
+          <img src="imgs/icons8-write-48.png" alt="Post"/> 
+          <p>Post</p>
+        </button>
+      </form>
+
+      <div class="me-link">
+        <ul>
+          <li><a href="me.html"><img src="imgs/cheems.jpg" alt="Me"></a></li>
+        </ul>
+      </div>
+    </header>
 
     <main>
       <div class="background-container">
@@ -183,6 +211,8 @@
       </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <p>&copy 2023 <div class="logo"> Rabbit Hole </div> Where Wonder Awaits</p>
+    </footer>
   </body>
 </html>

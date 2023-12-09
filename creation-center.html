@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Gugi&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+    <title>Rabbit Hole - Creation Center</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">Rabbit Hole</div>
+      <nav>
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="following.html"> Following </a></li>
+        </ul>
+      </nav>
+
+      <div class="search-bar">
+        <form action="/search" method="get">
+          <input type="text" name="q" placeholder="Search">
+          <button type="submit"><img src="imgs/icons8-search-48.png" alt="Search Button"></button>
+        </form>
+      </div>
+
+      <div class="me-link">
+        <ul>
+          <li><a href="me.html"><img src="imgs/cheems.jpg" alt="Me"></a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="background-container">
+      <!-- Profile Section -->
+      <div class="creation-center-container">
+        <div class="profile-section">
+          <div class="header-line">
+            <div class="close-btn" onclick="history.back()"><</div>
+            <div class="post-header"><h1>Creation Center</h1></div>
+          </div>
+
+          <hr class="cutting_line">
+
+          <div class="user-info">
+            <div class="profile-photo">
+              <img src="imgs/cheems.jpg" alt="User Profile">
+            </div>
+            <div class="profile-detail">
+              <h2>Cheems</h2>
+              <p>2 Following &nbsp &nbsp 3 Followers</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bottom-container">
+          <!-- Statistics Section -->
+          <div class="stats-section">
+            <div class="header-line">
+              <h3>Statistics</h3>
+            </div>
+
+            <hr class="cutting_line">
+
+            <div class="stats-container">
+              <div class="stat">
+                <img src="imgs/icons8-like-48 (1).png" alt="Likes">
+                <span>Likes: 77</span>
+              </div>
+              <div class="stat">
+                <img src="imgs/icons8-star-50.png" alt="Collections">
+                <span>Collections: 46</span>
+              </div>
+              <div class="stat">
+                <img src="imgs/icons8-comment-48 (1).png" alt="Comments">
+                <span>Comments: 15</span>
+              </div>
+            </div>  
+          </div>
+
+          <!-- Posts Section -->
+          <div class="posts-section">
+            <div class="header-line">
+              <h3>My Posts</h3>
+            </div>
+
+            <hr class="cutting_line">
+            
+            <!-- My Post 1 -->
+            <div class="my-post">
+              <div class="my-post-details">
+                <div class="my-post-profile">
+                  <img src="imgs/cheems.jpg" alt="User Profile">
+                  <div class="name-info">
+                    <h3> Cheems </h3>
+                    <p>2023/11/24</p>
+                  </div>
+                </div>
+
+                <div class="my-post-content">
+                  <p>I ate lamb today... yummy</p>
+                </div>
+              </div>
+
+              <div class="post-interaction">
+                <img src="imgs/icons8-like-24.png" alt="Likes"> <p>14</p>
+                <img src="imgs/icons8-star-26.png" alt="Likes"> <p>3</p>
+                <img src="imgs/icons8-comment-32.png" alt="Likes"> <p>5</p>
+              </div>
+            </div>
+
+            <!-- Pagination -->
+            <ul class="pagination">
+              <li class="active">1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>Next</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy 2023 <div class="logo"> Rabbit Hole </div> Where Wonder Awaits</p>
+    </footer>
+  </body>
+</html>
