@@ -43,7 +43,7 @@
   }
 
   .profile-name {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   .following-followers {
@@ -53,7 +53,7 @@
 
   .following,
   .followers {
-    gap: 0.8rem;
+    gap: 0.6rem;
   }
 
   .number {
@@ -130,13 +130,13 @@
     margin-right: 23px;
     padding: 10px;
   }
-  
+
   header .post-button p {
     margin-top: 2px;
     margin-right: 2px;
     font-size: 1.4rem;
   }
-  
+
   header .post-button img {
     margin-right: 7px;
     height: 28px;
@@ -146,7 +146,7 @@
   .post-new-content-head {
     padding-bottom: 1.5rem;
   }
-  
+
   .close-btn {
     margin-right: 35px;
     padding: 6px 13px;
@@ -156,22 +156,22 @@
   .post-header {
     font-size: 16px;
   }
-  
+
   .post-title {
     display: flex;
     align-items: center;
     flex-direction: row;
     padding: 20px;
   }
-  
+
   .post-title h2 {
     margin-right: 30px;
-    color: #3E1F1F;
+    color: #3e1f1f;
     width: 11%;
     font-size: 1.5rem;
     margin-bottom: 0;
   }
-  
+
   .input-field {
     font-size: 1.1rem;
   }
@@ -181,15 +181,15 @@
     padding: 20px;
     padding-top: 5px;
   }
-  
+
   .post-enter-content h2 {
     margin-top: 10px;
     margin-right: 30px;
-    color: #3E1F1F;
+    color: #3e1f1f;
     width: 11%;
     font-size: 1.5rem;
   }
-  
+
   .post-enter-content-area {
     display: flex;
     flex-direction: column;
@@ -198,17 +198,17 @@
   }
 
   .content-icons {
-    background-color: #3E1F1F;
+    background-color: #3e1f1f;
     display: flex;
     align-items: center;
     width: 100%;
     border-radius: 5px 5px 0 0;
     padding-left: 10px;
   }
-  
+
   .input-field-content {
     width: 100%;
-    border: 1.5px solid #3E1F1F;
+    border: 1.5px solid #3e1f1f;
     font-size: 1.1rem;
     border-radius: 0 0 5px 5px;
     padding: 15px;
@@ -226,10 +226,10 @@
     display: flex;
     padding-right: 20px;
   }
-  
+
   .post-content-btn {
     margin-left: auto;
-    padding: 8px 35px; 
+    padding: 8px 35px;
     border-radius: 5px;
     font-size: 22px;
   }
@@ -238,7 +238,7 @@
     padding: 25px;
     font-size: 20px;
   }
-  
+
   footer .logo {
     margin: 0px 8px;
     font-size: 22px;
@@ -250,33 +250,35 @@
     display: grid;
     gap: 20px;
   }
-  
+
   .bottom-container {
     display: grid;
     grid-template-columns: 2fr 5fr;
     gap: 20px;
   }
-  
-  .profile-section, .posts-section, .stats-section {
+
+  .profile-section,
+  .posts-section,
+  .stats-section {
     background-color: #fff;
     padding: 1.5rem 2rem;
     border-radius: 10px;
     box-shadow: 4px 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
   }
-  
+
   .profile-section {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .header-line {
     display: flex;
     padding: 20px;
     flex-direction: row;
     margin-right: auto;
   }
-  
+
   .user-info {
     display: flex;
     padding: 25px;
@@ -284,114 +286,114 @@
     margin-right: auto;
     align-items: center;
   }
-  
+
   .profile-photo img {
     border-radius: 50%;
     width: 120px;
     margin-right: 30px;
     margin-left: 35px;
   }
-  
+
   .profile-detail {
     display: flex;
     flex-direction: column;
   }
-  
+
   .profile-detail h2 {
-    color: #3E1F1F;
+    color: #3e1f1f;
     padding: 10px 15px;
     font-size: 28px;
   }
-  
+
   .profile-detail p {
     display: flex;
     flex-direction: row;
-    color: #3E1F1F;
+    color: #3e1f1f;
     padding: 10px 15px;
     font-size: 18px;
   }
-  
+
   .stats-section .header-line {
     padding: 10px;
     padding-top: 0;
     padding-bottom: 15px;
-    color: #3E1F1F;
+    color: #3e1f1f;
   }
-  
+
   .stats-container {
     padding-top: 20px;
   }
-  
+
   .stat {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     font-size: 18px;
-    color: #3E1F1F;
+    color: #3e1f1f;
   }
-  
+
   .stat img {
     margin-right: 20px;
     width: auto;
   }
-  
+
   .posts-section {
     display: flex;
     flex-direction: column;
   }
-  
+
   .posts-section .header-line {
     padding: 10px;
     padding-top: 0;
     padding-bottom: 15px;
-    color: #3E1F1F;
+    color: #3e1f1f;
   }
-  
+
   .my-post {
-    border: 1px solid #3E1F1F;
+    border: 1px solid #3e1f1f;
     margin: 20px;
     padding: 15px;
     border-radius: 5px;
   }
-  
+
   .my-post-details {
     display: flex;
     flex-direction: column;
   }
-  
+
   .my-post-profile {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
   }
-  
+
   .my-post-profile img {
-    width: 50px; 
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     margin-right: 10px;
   }
-  
+
   .name-info {
-    color: #3E1F1F;
+    color: #3e1f1f;
     padding-left: 10px;
   }
-  
+
   .name-info h3 {
     padding: 2px;
   }
-  
+
   .name-info p {
     padding: 2px;
     font-size: 12px;
     color: #495057;
   }
-  
+
   .my-post-content {
-    color: #3E1F1F;
+    color: #3e1f1f;
     font-size: 18px;
   }
-  
+
   .post-interaction {
     display: flex;
     justify-content: flex-end;
@@ -399,18 +401,18 @@
     padding: 10px;
     padding-bottom: 0;
   }
-  
+
   .post-interaction img {
     width: 26px;
     height: 26px;
   }
-  
+
   .post-interaction p {
-    color: #3E1F1F;
+    color: #3e1f1f;
     margin: 5px;
     margin-right: 15px;
   }
-  
+
   .pagination {
     display: flex;
     justify-content: center;
